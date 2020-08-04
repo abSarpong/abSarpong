@@ -7,10 +7,12 @@ body {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 p {
     font-size: 18px;
     line-height: 1.5em;
     font-weight: 100;
+    font-family: 'Vollkorn', serif;
 }
 .wrapper {
     position: absolute;
@@ -28,5 +30,6 @@ p {
 }
 .role {
     font-size: 14px;
-    color: #C2D5E0;
+    color: #adcadb;
+    font-family: 'Source Code Pro', monospace;
 }
