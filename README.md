@@ -1,4 +1,4 @@
-#### Hi! I'm Michael
+### Hi! I'm Michael
 
 I am a software engineer with specialization in frontend development. Currently I'm helping build solutions for farmers across Africa at Agrocenta. I have a bachelor's degree in Computer Science. I am a very logical person when it comes to problem solving, my approach includes breaking down large problems into chunks and connecting the dots to form back the bigger picture. There’s no greater joy to me than successfully transforming manual workflow to the digital form with well known problem solving techniques.
 
@@ -8,7 +8,7 @@ Communication is very key in every environment which is why I manage to communic
 
 My escape route from this cold world is playing Fifa which I kind of suck at, listening to music heavily and sometimes watching movies.
 
-#### Tech Stack
+### Tech Stack
 * HTML5
 * CSS3 (Foundation Zurb, Semantic UI, Tailwind CSS)
 * JavaScript (VueJS, React Native)
