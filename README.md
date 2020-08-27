@@ -6,15 +6,4 @@ With a little over 3 years experience building digital products, I will admit it
 
 Communication is very key in every environment which is why I manage to communicate clearly to my understanding first before putting it across to any team I find myself as a member. Paying critical attention to details is one of my greatest strengths as a person before an engineer. One thing I know I'm not is shying away from learning new things. In fact as a kid I taught myself lots of sports just to keep up with friends.
 
-My escape route from this cold world is playing Fifa which I kind of suck at, listening to music heavily and sometimes watching movies.
-
-### Tech Stack
-* HTML5
-* CSS3 (Foundation Zurb, Semantic UI, Tailwind CSS)
-* JavaScript (VueJS, React Native)
-* MVC Architecture 
-* Laravel Framework
-* Git
-* GitHub
-* Figma
-* Adobe (Xd, Ps, Ai)
+My escape route from this cold world is playing Fifa which I kind of suck at, listening to music heavily ([checkout my playlist](https://music.apple.com/gh/playlist/imaginary/pl.u-BNA6rkjF1pBeg2E)) and sometimes watching movies.
