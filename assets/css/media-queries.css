@@ -1,0 +1,172 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding: 48px 24px;
+  }
+  .left-pane {
+    height: 70%;
+    position: relative;
+    width: 100%;
+  }
+  .right-pane {
+    width: 100%;
+    padding-bottom: 48px;
+  }
+  .image-border {
+    width: 290px;
+    height: 286px;
+    border: 2px solid #6096ba;
+    border-radius: 8px;
+  }
+  .image-style {
+    width: 290px;
+    height: 286px;
+    border-radius: 8px;
+    object-fit: cover;
+    position: relative;
+    right: 8px;
+    top: 8px;
+  }
+
+  .design-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 244px);
+    gap: 0;
+    row-gap: 8px;
+  }
+  .box-1 {
+    background-color: #bfd8bd;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .box-3 {
+    background-color: #77bfa3;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding: 48px 24px;
+  }
+  .left-pane {
+    height: 70%;
+    position: relative;
+    width: 100%;
+  }
+  .right-pane {
+    width: 100%;
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: landscape) {
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding: 80px;
+  }
+  .left-pane {
+    height: 100vh;
+    position: fixed;
+    width: 24%;
+  }
+  .right-pane {
+    width: 54%;
+    float: right;
+    padding-bottom: 60px;
+  }
+  .image-border {
+    width: 300px;
+    height: 346px;
+    border: 2px solid #6096ba;
+    border-radius: 8px;
+  }
+  .image-style {
+    width: 300px;
+    height: 346px;
+    border-radius: 8px;
+    object-fit: cover;
+    position: relative;
+    right: 8px;
+    top: 8px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding: 80px 40px;
+  }
+  .left-pane {
+    height: 100vh;
+    position: fixed;
+    width: 38%;
+  }
+  .right-pane {
+    width: 50%;
+    float: right;
+    padding-bottom: 60px;
+  }
+  .image-border {
+    width: 280px;
+    height: 306px;
+    border: 2px solid #6096ba;
+    border-radius: 8px;
+  }
+  .image-style {
+    width: 280px;
+    height: 306px;
+    border-radius: 8px;
+    object-fit: cover;
+    position: relative;
+    right: 8px;
+    top: 8px;
+  }
+  .design-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 244px);
+    gap: 0;
+    row-gap: 8px;
+  }
+  .box-1 {
+    background-color: #bfd8bd;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  .box-3 {
+    background-color: #77bfa3;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding: 80px;
+  }
+  .left-pane {
+    height: 100vh;
+    position: fixed;
+    width: 30%;
+  }
+  .right-pane {
+    width: 54%;
+    float: right;
+    padding-bottom: 60px;
+  }
+}

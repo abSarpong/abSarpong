@@ -1,27 +1,45 @@
-.margin-right-12px {
-    margin-right: 12px;
+.mb-4 {
+  margin-bottom: 4px;
 }
-.padding-top-8px {
-    padding-top: 8px;
+.mb-24 {
+  margin-bottom: 24px;
 }
-.padding-top-4px {
-    padding-top: 4px;
+.mb-48 {
+  margin-bottom: 48px;
 }
-.padding-top-16px {
-    padding-top: 16px;
+.mb-64 {
+  margin-bottom: 64px;
 }
-.padding-top-32px {
-    padding-top: 32px;
+.mt-8 {
+  margin-top: 8px;
 }
-.padding-top-24px {
-    padding-top: 24px;
+.py-12 {
+  padding: 12px 0;
 }
-.no-margin-top {
-    margin-top: 0;
+.text {
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(76, 69, 67, 0.8);
+  font-family: madaRegular;
 }
-.white-text {
-    color: #F1F5F9;
+.text-sm {
+  font-family: madaRegular;
+  font-size: 16px;
+  color: rgba(76, 69, 67, 0.6);
 }
-.grey-text {
-    color: #C2D5E0;
+.heading {
+  font-family: sourceSerifProBold;
+  font-size: 48px;
+  color: rgb(95, 99, 104);
+}
+.heading-sm {
+  font-family: sourceSerifProSemiBold;
+  font-size: 20px;
+  color: rgba(56, 48, 46, 0.8);
+  line-height: 28px;
+}
+.heading-md {
+  font-family: sourceSerifProSemiBold;
+  font-size: 24px;
+  color: rgb(95, 99, 104);
 }

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: madaRegular;
+  src: url(../../assets/fonts/Mada-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: madaBold;
+  src: url(../../assets/fonts/Mada-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: sourceSerifProBold;
+  src: url(../../assets/fonts/SourceSerifPro-Bold.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: sourceSerifProSemiBold;
+  src: url(../../assets/fonts/SourceSerifPro-SemiBold.ttf);
+  font-display: swap;
+}

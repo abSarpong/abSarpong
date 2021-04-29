@@ -1,0 +1,23 @@
+{
+  "name": "abSarpong",
+  "version": "1.0.0",
+  "description": "I am a software engineer with specialization in frontend development. Currently I'm helping build solutions for farmers across Africa at Agrocenta. I have a bachelor's degree in Computer Science. I am very logical when it comes to problem solving, my approach includes breaking down large problems into chunks and connecting the dots to form back the bigger picture. There’s no greater joy to me than successfully transforming manual workflow to the digital form with well known problem solving techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abSarpong/abSarpong.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abSarpong/abSarpong/issues"
+  },
+  "homepage": "https://github.com/abSarpong/abSarpong#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
