@@ -68,7 +68,7 @@ body {
   margin-top: 64px;
 }
 .numbering {
-  font-family: "silka mono";
+  font-family: silkamono;
   font-size: 14px;
   color: #436982;
 }
@@ -342,7 +342,7 @@ p {
   font-display: swap;
 }
 @font-face {
-  font-family: sourceSerifProSemiBold;
+  font-family: silkamono;
   src: url(../fonts/SilkaMono-Regular.otf);
   font-display: swap;
 }
