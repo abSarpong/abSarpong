@@ -341,3 +341,8 @@ p {
   src: url(../fonts/SourceSerifPro-SemiBold.ttf);
   font-display: swap;
 }
+@font-face {
+  font-family: sourceSerifProSemiBold;
+  src: url(../fonts/SilkaMono-Regular.otf);
+  font-display: swap;
+}
