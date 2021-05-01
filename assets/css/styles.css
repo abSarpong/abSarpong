@@ -5,7 +5,7 @@
 html,
 body {
   font-size: 20px;
-  background-color: rgba(231, 236, 239, 0.8);
+  background-color: rgba(231, 236, 239, 0.6);
 }
 .container {
   max-width: 100%;
@@ -34,12 +34,11 @@ body {
 .button {
   padding: 14px 28px 10px 28px;
   background: none;
-  border: 1px solid #4e598c;
-  color: #4e598c;
+  border: 1px solid #6096ba;
+  color: #5895bd;
   border-radius: 4px;
-  font-family: madaRegular;
+  font-family: madaSemiBold;
   font-size: 16px;
-  font-weight: 400;
   vertical-align: middle;
 }
 .grouped-buttons {
@@ -48,7 +47,7 @@ body {
   align-items: center;
 }
 .button:hover {
-  background: #4e598c;
+  background: #6096ba;
   color: #ffffff;
   cursor: pointer;
 }
@@ -73,11 +72,11 @@ body {
 .numbering {
   font-family: silkamono;
   font-size: 14px;
-  color: #436982;
+  color: #0081a7;
 }
 a {
   text-decoration: none;
-  color: #4e598c;
+  color: #6096ba;
   font-family: madaRegular;
   font-size: 16px;
 }
@@ -117,7 +116,7 @@ p {
 .image-border {
   width: 300px;
   height: 346px;
-  border: 2px solid #6096ba;
+  border: 3px solid #f08080;
   border-radius: 8px;
 }
 .image-style {
@@ -150,6 +149,13 @@ p {
 .links svg {
   margin-right: 16px;
 }
+.company-name {
+  color: #6096ba;
+  font-family: madaSemiBold;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 100;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
@@ -170,7 +176,7 @@ p {
   .image-border {
     width: 300px;
     height: 322px;
-    border: 2px solid #6096ba;
+    border: 3px solid #f08080;
     border-radius: 8px;
   }
   .image-style {
@@ -248,7 +254,7 @@ p {
   .image-border {
     width: 300px;
     height: 346px;
-    border: 2px solid #6096ba;
+    border: 3px solid #f08080;
     border-radius: 8px;
   }
   .image-style {
@@ -281,7 +287,7 @@ p {
   .image-border {
     width: 300px;
     height: 322px;
-    border: 2px solid #6096ba;
+    border: 3px solid #f08080;
     border-radius: 8px;
   }
   .image-style {
