@@ -54,6 +54,12 @@ body {
 .grouped-buttons a {
   padding: 8px 0 0 28px;
 }
+.svg {
+  fill: rgba(96, 150, 186, 0.6);
+}
+.svg:hover {
+  fill: rgb(96, 150, 186);
+}
 .tech-stack {
   margin-top: 12px;
 }
