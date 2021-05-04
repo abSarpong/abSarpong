@@ -6,7 +6,6 @@ export const query = {
            user(login: "${githubData.username}"){
              avatarUrl
              pinnedItems(first: 3){
-               totalCount
                nodes{
                  ... on Repository{
                    name

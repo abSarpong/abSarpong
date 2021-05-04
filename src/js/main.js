@@ -1,6 +1,7 @@
 import { renderElement } from "../../assets/js/scripts.js";
 import { githubData } from "./config.js";
 import { query } from "./query.js";
+import { projects } from "../utils/data.js";
 
 const headers = {
   "Content-Type": "application/json",
@@ -10,7 +11,9 @@ const baseUrl = "https://api.github.com/graphql";
 
 const queryRepo = query;
 let cardDetails = "";
+let projectDetails = "";
 
+// Noteworthy projects
 fetch(baseUrl, {
   method: "POST",
   headers: headers,
@@ -61,3 +64,15 @@ fetch(baseUrl, {
     renderElement("card", cardDetails);
   })
   .catch((err) => console.log(JSON.stringify(err)));
+
+// Projects
+projects.map((project) => {
+  projectDetails += `
+    <div class="mb-32">
+      <h3 class="heading-sm">${project.title}</h3>
+      <p class="text mb-4">${project.description}</p>
+      <a href="${project.url}" target="_blank" rel="noopener">View project &nbsp;&nbsp;<svg viewBox="0 0 24 24" width="24px" height="16px" fill="#6096ba" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="Layer 2" id="Layer_2"><path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"/></g></svg></a>
+    </div>
+      `;
+});
+renderElement("projects", projectDetails);
