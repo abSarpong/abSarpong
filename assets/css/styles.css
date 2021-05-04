@@ -55,7 +55,7 @@ body {
   padding: 8px 0 0 28px;
 }
 .svg {
-  fill: rgba(96, 150, 186, 0.6);
+  fill: rgba(96, 150, 186, 0.8);
 }
 .svg:hover {
   fill: rgb(96, 150, 186);

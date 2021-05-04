@@ -53,6 +53,14 @@
 }
 .heading-md {
   font-family: sourceSerifProSemiBold;
-  font-size: 24px;
+  font-size: 22px;
   color: rgb(95, 99, 104);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .heading-md {
+    font-family: sourceSerifProSemiBold;
+    font-size: 20px;
+    color: rgb(95, 99, 104);
+  }
 }
