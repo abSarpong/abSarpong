@@ -5,8 +5,7 @@
 html,
 body {
   font-size: 20px;
-  /* background-color: rgba(231, 236, 239, 0.4); */
-  background-color: rgba(253, 255, 252, 0.4);
+  background-color: #fcfaf4;
 }
 .container {
   max-width: 100%;
@@ -35,8 +34,8 @@ body {
 .button {
   padding: 14px 28px 10px 28px;
   background: none;
-  border: 1px solid #6096ba;
-  color: #5895bd;
+  border: 1px solid #0084bf;
+  color: #0084bf;
   border-radius: 4px;
   font-family: madaSemiBold;
   font-size: 16px;
@@ -48,7 +47,7 @@ body {
   align-items: center;
 }
 .button:hover {
-  background: #6096ba;
+  background: #0084bf;
   color: #ffffff;
   cursor: pointer;
 }
@@ -56,10 +55,10 @@ body {
   padding: 8px 0 0 28px;
 }
 .svg {
-  fill: rgba(96, 150, 186, 0.8);
+  fill: rgba(0, 132, 191, 0.7);
 }
 .svg:hover {
-  fill: rgb(96, 150, 186);
+  fill: #0084bf;
 }
 .tech-stack {
   margin-top: 12px;
@@ -79,11 +78,11 @@ body {
 .numbering {
   font-family: silkamono;
   font-size: 14px;
-  color: #de5c4c;
+  color: #e7a33f;
 }
 a {
   text-decoration: none;
-  color: #6096ba;
+  color: #0084bf;
   font-family: madaRegular;
   font-size: 16px;
 }
@@ -113,7 +112,7 @@ p {
 .image-border {
   width: 300px;
   height: 346px;
-  border: 3px solid #f08080;
+  border: 3px solid #e7a33f;
   border-radius: 8px;
 }
 .image-style {
@@ -129,7 +128,7 @@ p {
   padding: 20px;
   border: 1px solid rgba(210, 210, 210, 0.6);
   border-radius: 8px;
-  background-color: rgba(253, 255, 252, 0.8);
+  background-color: #fdfcf8;
   margin-bottom: 16px;
 }
 .project-card-meta {
@@ -147,7 +146,7 @@ p {
   margin-right: 16px;
 }
 .company-name {
-  color: #6096ba;
+  color: #0084bf;
   font-family: madaSemiBold;
   font-size: 18px;
   line-height: 28px;
@@ -173,7 +172,7 @@ p {
   .image-border {
     width: 300px;
     height: 322px;
-    border: 3px solid #f08080;
+    border: 3px solid #e7a33f;
     border-radius: 8px;
   }
   .image-style {
@@ -244,7 +243,7 @@ p {
   .image-border {
     width: 300px;
     height: 346px;
-    border: 3px solid #f08080;
+    border: 3px solid #e7a33f;
     border-radius: 8px;
   }
   .image-style {
@@ -277,7 +276,7 @@ p {
   .image-border {
     width: 300px;
     height: 322px;
-    border: 3px solid #f08080;
+    border: 3px solid #e7a33f;
     border-radius: 8px;
   }
   .image-style {

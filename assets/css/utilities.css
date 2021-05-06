@@ -31,13 +31,13 @@
 .text {
   font-size: 18px;
   line-height: 28px;
-  color: rgba(76, 69, 67, 0.8);
+  color: rgba(77, 77, 77, 0.8);
   font-family: madaRegular;
 }
 .text-sm {
   font-family: madaRegular;
   font-size: 16px;
-  color: rgba(76, 69, 67, 0.6);
+  color: rgba(77, 77, 77, 0.6);
 }
 .heading {
   font-family: sourceSerifProBold;
