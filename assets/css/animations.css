@@ -73,3 +73,12 @@ body.loaded .about-stack {
     opacity: 1;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .image-style:hover {
+    animation-name: animateprofilepicture;
+    animation-duration: none;
+    animation-iteration-count: none;
+    animation-timing-function: none;
+  }
+}
