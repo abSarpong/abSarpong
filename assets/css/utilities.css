@@ -56,7 +56,9 @@
   font-size: 22px;
   color: rgb(95, 99, 104);
 }
-
+.link {
+  color: #0084bf;
+}
 @media (min-width: 320px) and (max-width: 480px) {
   .heading-md {
     font-family: sourceSerifProSemiBold;
