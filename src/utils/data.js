@@ -1,5 +1,6 @@
 export const projects = [
   {
+    id: 1,
     title: "CropChain",
     description:
       "A web based supply chain platform for managing agricultural activities and processes such as profiling, logistics and traceability etc.",
@@ -14,6 +15,7 @@ export const projects = [
     ],
   },
   {
+    id: 2,
     title: "Apploader",
     description:
       "Apploader is a mobile app which serves as a data collection app into all other apps. It is typically used by field agents on behalf of farmers in rural areas.",
@@ -29,6 +31,7 @@ export const projects = [
     ],
   },
   {
+    id: 3,
     title: "AgroMart",
     description:
       "AgroMart is a web platform where distributors order commodities from any location within Ghana and it is delivered without any hussle.",
@@ -43,6 +46,7 @@ export const projects = [
     ],
   },
   {
+    id: 4,
     title: "Pharmacy Management System",
     description:
       "A mobile app that enables African pharmacies to connect with their patients and customers directly to their inventory and services.",

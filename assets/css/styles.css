@@ -61,12 +61,14 @@ body {
   fill: #0084bf;
 }
 .tech-stack {
-  margin-top: 12px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.tech-stack svg {
+.tech-stack-svg {
   border: 1px solid rgba(196, 196, 196, 0.4);
   padding: 8px;
-  margin-right: 16px;
   border-radius: 4px;
 }
 .projects {
@@ -140,11 +142,16 @@ p {
   margin-right: 8px;
 }
 .links {
-  margin-left: 24px;
+  margin-left: 48px;
 }
 .links svg {
-  margin-right: 16px;
+  margin-right: 32px;
+  fill: rgba(0, 132, 191, 0.7);
 }
+.links svg:hover {
+  fill: #0084bf;
+}
+
 .company-name {
   color: #0084bf;
   font-family: madaSemiBold;
@@ -194,6 +201,12 @@ p {
   .dribbble-shot:nth-child(odd) {
     margin-bottom: 24px;
   }
+  .links {
+    margin-left: 24px;
+  }
+  .links svg {
+    margin-right: 18px;
+  }
 }
 
 .link-style {
@@ -220,6 +233,12 @@ p {
   .right-pane {
     width: 100%;
     padding-bottom: 48px;
+  }
+  .links {
+    margin-left: 24px;
+  }
+  .links svg {
+    margin-right: 18px;
   }
 }
 
@@ -253,6 +272,12 @@ p {
     object-fit: cover;
     position: relative;
     right: 20px;
+  }
+  .links {
+    margin-left: 24px;
+  }
+  .links svg {
+    margin-right: 18px;
   }
 }
 
@@ -303,6 +328,12 @@ p {
     background-color: #77bfa3;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
+  }
+  .links {
+    margin-left: 24px;
+  }
+  .links svg {
+    margin-right: 18px;
   }
 }
 
