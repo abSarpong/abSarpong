@@ -26,28 +26,28 @@ export const techStack = [
   },
   {
     id: 6,
-    stack: "Git",
-    icon: "../../assets/icons/git.svg",
-  },
-  {
-    id: 7,
-    stack: "Figma",
-    icon: "../../assets/icons/figma.svg",
-  },
-  {
-    id: 8,
-    stack: "Adobe Xd",
-    icon: "../../assets/icons/adobexd.svg",
-  },
-  {
-    id: 9,
     stack: "GraphQL",
     icon: "../../assets/icons/graphql.svg",
   },
   {
-    id: 10,
+    id: 7,
     stack: "Tailwind CSS",
     icon: "../../assets/icons/tailwindcss.svg",
+  },
+  {
+    id: 8,
+    stack: "Figma",
+    icon: "../../assets/icons/figma.svg",
+  },
+  {
+    id: 9,
+    stack: "Adobe Xd",
+    icon: "../../assets/icons/adobexd.svg",
+  },
+  {
+    id: 10,
+    stack: "Git",
+    icon: "../../assets/icons/git.svg",
   },
   //   {
   //     id: 11,
