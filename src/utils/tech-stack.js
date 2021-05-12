@@ -39,4 +39,19 @@ export const techStack = [
     stack: "Adobe Xd",
     icon: "../../assets/icons/adobexd.svg",
   },
+  {
+    id: 9,
+    stack: "GraphQL",
+    icon: "../../assets/icons/graphql.svg",
+  },
+  {
+    id: 10,
+    stack: "Tailwind CSS",
+    icon: "../../assets/icons/tailwindcss.svg",
+  },
+  //   {
+  //     id: 11,
+  //     stack: "Flutter",
+  //     icon: "../../assets/icons/flutter.svg",
+  //   },
 ];
