@@ -23,14 +23,6 @@ body {
   float: right;
   padding-bottom: 60px;
 }
-.profile-photo {
-  width: 432px;
-  height: 502px;
-  background-image: url(../images/user-2.jpeg);
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: 432px 502px;
-}
 .button {
   padding: 14px 28px 10px 28px;
   background: none;
@@ -90,10 +82,6 @@ a {
 }
 a:hover {
   text-decoration: none;
-}
-
-h4 {
-  margin-bottom: 8px;
 }
 h2,
 h3,
@@ -318,16 +306,6 @@ p {
     grid-template-rows: repeat(2, 244px);
     gap: 0;
     row-gap: 8px;
-  }
-  .box-1 {
-    background-color: #bfd8bd;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-  }
-  .box-3 {
-    background-color: #77bfa3;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
   }
   .links {
     margin-left: 24px;
