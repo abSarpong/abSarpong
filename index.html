@@ -6,15 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Michael Sarpong portfolio frontend developer software engineer">
   <meta name="author" content="Michael Sarpong">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/utilities.css">
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/animations.css">
-  <link rel="preload" as="font" href="assets/fonts/Mada-Regular.ttf" crossorigin>
-  <link rel="preload" as="font" href="assets/fonts/Mada-Bold.ttf" crossorigin>
-  <link rel="preload" as="font" href="assets/fonts/SourceSerifPro-Bold.ttf" crossorigin>
-  <link rel="preload" as="font" href="assets/fonts//SourceSerifPro-SemiBold.ttf" crossorigin>
   <title>Michael Sarpong</title>
+  <style>
+    @keyframes animateprofilepicture{0%,to{right:8px;top:8px}25%{right:8px;top:-20px}50%{right:40px;top:-20px}75%{right:40px;top:8px}}@keyframes onscrollanimation{0%{transform:translateX(100px);opacity:0}to{transform:translateX(0);opacity:1}}@keyframes leftpaneanimation{0%{transform:translateX(-200px);opacity:0}to{transform:translateX(0);opacity:1}}body,html{font-size:20px;background-color:#fcfaf4}.container{max-width:100%;overflow-x:hidden;position:relative;padding:80px 192px}.left-pane{height:100vh;position:fixed;width:30%}.right-pane{width:58%;float:right;padding-bottom:60px}.button,a{color:#0084bf;font-size:16px}.button{padding:14px 28px 10px;background:0 0;border:1px solid #0084bf;border-radius:4px;font-family:madaSemiBold;vertical-align:middle}.grouped-buttons{margin-top:64px;display:flex;align-items:center}.button:hover{background:#0084bf;color:#fff;cursor:pointer}.grouped-buttons a{padding:8px 0 0 28px}.svg{fill:rgba(0,132,191,.7)}.links svg:hover,.svg:hover{fill:#0084bf}.tech-stack{margin-top:16px;display:flex;flex-direction:row;flex-wrap:wrap}.tech-stack-svg{border:1px solid rgba(196,196,196,.4);padding:8px;border-radius:4px}.projects{margin:64px 0}.work-experience{margin-top:64px}.numbering{font-family:silkamono;font-size:14px;color:#e7a33f}a{font-family:madaRegular;background-color:transparent}a,a:hover{text-decoration:none}h2,h3,p{margin:0 0 8px}.dribbble-shot{object-fit:contain;width:100%;height:100%;border-radius:8px;box-shadow:0 8px 27px rgb(150 150 150/24%)}.dribbble-shot:nth-child(odd){margin-bottom:24px}.image-border,.image-style{width:300px;height:346px;border-radius:8px}.image-border{border:3px solid #e7a33f}.image-style{object-fit:cover;position:relative;right:20px}.project-card{padding:20px;border:1px solid rgba(210,210,210,.6);border-radius:8px;background-color:#fdfcf8;margin-bottom:16px}.project-card-meta{display:flex;flex-direction:row;margin-top:16px}.languages span{margin-right:8px}.links{margin-left:48px}.links svg{margin-right:32px;fill:rgba(0,132,191,.7)}.company-name{color:#0084bf;font-family:madaSemiBold;font-size:18px;line-height:28px;font-weight:100}@media (min-width:320px) and (max-width:480px){.container{max-width:100%;overflow-x:hidden;position:relative;padding:48px 24px}.left-pane{height:70%;position:relative;width:100%}.right-pane{width:100%;padding-bottom:48px}.image-border,.image-style{width:300px;height:322px;border-radius:8px}.image-border{border:3px solid #e7a33f}.image-style{object-fit:cover;position:relative;right:20px}.dribbble-shot{object-fit:contain;width:100%;height:100%;border-radius:8px;box-shadow:0 8px 27px rgb(150 150 150/24%)}.dribbble-shot:nth-child(odd){margin-bottom:24px}.links{margin-left:24px}.links svg{margin-right:18px}}.link-style{background-color:#dde9f0;padding:1px 4px;border-radius:3px;color:#3a5a70;font-size:14px;border:1px solid #cfe0ea}@media (min-width:481px) and (max-width:767px){.container{max-width:100%;overflow-x:hidden;position:relative;padding:48px 24px}.left-pane{height:70%;position:relative;width:100%}.right-pane{width:100%;padding-bottom:48px}.links{margin-left:24px}.links svg{margin-right:18px}}@media (max-width:1024px) and (orientation:landscape){.container{max-width:100%;overflow-x:hidden;position:relative;padding:80px}.left-pane{height:100vh;position:fixed;width:24%}.right-pane{width:54%;float:right;padding-bottom:60px}.image-border,.image-style{width:300px;height:346px;border-radius:8px}.image-border{border:3px solid #e7a33f}.image-style{object-fit:cover;position:relative;right:20px}.links{margin-left:24px}.links svg{margin-right:18px}}@media (min-width:768px) and (max-width:1024px){.container{max-width:100%;overflow-x:hidden;position:relative;padding:80px 40px}.left-pane{height:100vh;position:fixed;width:38%}.right-pane{width:50%;float:right;padding-bottom:60px}.image-border,.image-style{width:300px;height:322px;border-radius:8px}.image-border{border:3px solid #e7a33f}.image-style{object-fit:cover;position:relative;right:20px}.design-content{display:grid;grid-template-columns:1fr;grid-template-rows:repeat(2,244px);gap:0;row-gap:8px}.links{margin-left:24px}.links svg{margin-right:18px}}@media (min-width:1024px) and (max-width:1280px){.container{max-width:100%;overflow-x:hidden;position:relative;padding:80px}.left-pane{height:100vh;position:fixed;width:30%}.right-pane{width:54%;float:right;padding-bottom:60px}}@font-face{font-family:madaRegular;src:url(/assets/fonts/Mada-Regular.ttf);font-display:swap}@font-face{font-family:madaSemiBold;src:url(/assets/fonts/Mada-SemiBold.ttf);font-display:swap}@font-face{font-family:sourceSerifProBold;src:url(/assets/fonts/SourceSerifPro-Bold.ttf);font-display:swap}@font-face{font-family:sourceSerifProSemiBold;src:url(/assets/fonts/SourceSerifPro-SemiBold.ttf);font-display:swap}@font-face{font-family:silkamono;src:url(/assets/fonts/SilkaMono-Regular.otf);font-display:swap}.mb-0{margin-bottom:0}.mb-4{margin-bottom:4px}.mb-24{margin-bottom:24px}.mb-32{margin-bottom:32px}.mb-48{margin-bottom:48px}.mb-64{margin-bottom:64px}.mt-8{margin-top:8px}.mt-32{margin-top:64px}.my-16{margin:16px 0}.text,.text-sm{font-family:madaRegular}.text{font-size:18px;line-height:28px;color:rgba(77,77,77,.8)}.text-sm{font-size:16px;color:rgba(77,77,77,.6)}.heading{font-family:sourceSerifProBold;font-size:48px;color:#5f6368}.heading-sm{font-family:madaSemiBold;font-size:18px;color:rgba(56,48,46,.8);line-height:28px;font-weight:100}.heading-md{font-family:sourceSerifProSemiBold;font-size:22px;color:#5f6368}.link{color:#0084bf}@media (min-width:320px) and (max-width:480px){.heading-md{font-family:sourceSerifProSemiBold;font-size:20px;color:#5f6368}}html{-webkit-text-size-adjust:100%}body,button{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}strong{font-weight:bolder}img{border-style:none}button,html{line-height:1.15}button{font-family:inherit;font-size:100%;overflow:visible;text-transform:none;-webkit-appearance:button}.about-stack{opacity:0;transition-delay:.5s;transition-duration:.8s;transition-timing-function:ease-out}body.loaded .about-stack{opacity:1}.image-style:hover{animation-name:animateprofilepicture;animation-duration:4s;animation-iteration-count:infinite;animation-timing-function:linear}.on-scroll-animation{opacity:0}.active,.left-pane-animation{animation-timing-function:ease-out}.active{animation-name:onscrollanimation;animation-duration:.7s;animation-fill-mode:forwards}.left-pane-animation{animation-name:leftpaneanimation;animation-duration:1.2s}@media (min-width:481px) and (max-width:767px){.image-style:hover{animation-name:animateprofilepicture;animation-duration:none;animation-iteration-count:none;animation-timing-function:none}}
+  </style>
 </head>
 <body>
   <main class="container">
@@ -22,8 +17,7 @@
       <div class="image-border">
         <figure>
           <img class="image-style" id="ava" src="./assets/images/profile-image.jpeg" alt="profile-image" 
-          srcset="./assets/images/profile-image.jpeg, 
-                  ./assets/images/user-mobile.jpg">
+          >
         </figure>
       </div>
       <div class="grouped-buttons">
@@ -85,8 +79,8 @@
         <div class="design mb-64 on-scroll-animation">
           <h2 class="heading-md mb-24"><span class="numbering">iii.</span> I whip design when need be</h2>
           <div class="design-content">
-            <img class="dribbble-shot" src="./assets/images/CropChain.jpg" alt="dribbble-shot">
-            <img class="dribbble-shot" src="./assets/images/CruzCtrl.jpg" alt="dribbble-shot">
+            <img class="dribbble-shot" src="./assets/images/CropChain.jpg" srcset="./assets/images/CropChain-small.jpg" 640w alt="dribbble-shot">
+            <img class="dribbble-shot" src="./assets/images/CruzCtrl.jpg" srcset="./assets/images/CruzCtrl-small.jpg" 640w alt="dribbble-shot">
           </div>
         </div>
         <div class="contact on-scroll-animation">
@@ -99,18 +93,19 @@
       </div>
     </section>
   </main>
-  <!-- <link rel="preload" as="style" href="assets/css/styles.css">
-  <link rel="preload" as="style" href="assets/css/utilities.css">
-  <link rel="preload" as="style" href="assets/css/normalize.css">
-  <link rel="preload" as="style" href="assets/css/animations.css">
+  <link as="style" defer href="assets/css/styles.css">
+  <link as="style" defer href="assets/css/utilities.css">
+  <link as="style" defer href="assets/css/normalize.css">
+  <link as="style" defer href="assets/css/animations.css">
   <link rel="preload" as="font" href="assets/fonts/Mada-Regular.ttf" crossorigin>
   <link rel="preload" as="font" href="assets/fonts/Mada-Bold.ttf" crossorigin>
   <link rel="preload" as="font" href="assets/fonts/SourceSerifPro-Bold.ttf" crossorigin>
-  <link rel="preload" as="font" href="assets/fonts//SourceSerifPro-SemiBold.ttf" crossorigin> -->
-  <script src="./assets/js/animation.js"></script>
-  <script type="module" src="./src/js/main.js"></script>
+  <link rel="preload" as="font" href="assets/fonts//SourceSerifPro-SemiBold.ttf" crossorigin>
+  <script as="script" defer src="./assets/js/animation.js"></script>
+  <script rel="preload" as="script" type="module" defer src="./src/js/main.js"></script>
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155864247-1"></script>
+  <script rel="preload" as="script" async defer src="https://www.googletagmanager.com/gtag/js?id=UA-155864247-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}

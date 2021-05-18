@@ -83,7 +83,7 @@ renderElement("projects", projectDetails);
 techStack.map((stack) => {
   stackDetails += `
     <div style="text-align: center; margin: 0 16px 16px 0">
-      <object class="tech-stack-svg" data="${stack.icon}" type="image/svg+xml" alt="icon"></object>
+      <object class="tech-stack-svg" data="${stack.icon}" type="image/svg+xml">${stack.alt}</object>
       <p class="text-sm mt-8">${stack.stack}</p>
     </div>
   `;
